@@ -1,130 +1,130 @@
 .about {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 50%;
-  padding-right: 0;
+  position:         absolute;
+  top:              0px;
+  left:             0px;
+  width:            50%;
+  padding-right:    0;
   background-color: #fff;
 }
 section .content_box {
-  height: 100%;
-  padding: 72px;
-  box-sizing: border-box;
+  height:           100%;
+  padding:          72px;
+  box-sizing:       border-box;
 }
 .about .inner .ttl img {
-  max-width: 661px;
+  max-width:        661px;
 }
 .about.show .anim_1 {
-  transform: translate3d(0, 0, 0);
-  transition: 500ms ease-out 100ms;
-  opacity: 1;
+  transform:        translate3d(0, 0, 0);
+  transition:       500ms ease-out 100ms;
+  opacity:          1;
 }
 .about .inner .ttl img {
-  max-width: 661px;
+  max-width:        661px;
 }
 .about.show .anim_0 {
-  transform: translate3d(0, 0, 0);
-  transition: 500ms ease-out 0ms;
-  opacity: 1;
+  transform:        translate3d(0, 0, 0);
+  transition:       500ms ease-out 0ms;
+  opacity:          1;
 }
 body {
-  background:#fff;
-  width: 100%;
-  height: 100%;
+  background:       #fff;
+  width:            100%;
+  height:           100%;
   -webkit-text-size-adjust: 100%;
-  font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  font-size: 1rem;
-  line-height: 1;
-  color: #333;
+  font-family:      Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size:        1rem;
+  line-height:      1;
+  color:            #333;
 }
 .about .inner {
   background-color: #eef8f6;
-  padding-left: 11%;
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-left:     11%;
+  position:         relative;
+  padding-top:      50px;
+  padding-bottom:   50px;
 }
 .about .inner .ttl h3 {
-  margin: 35px 0 25px 0;
-  font-size: 2rem;
-  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-  font-weight: normal;
-  color: #273650;
+  margin:           35px 0 25px 0;
+  font-size:        2rem;
+  font-family:      "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight:      normal;
+  color:            #273650;
 }
 .about .inner .ttl p {
-  margin: 0 0 60px 0;
-  padding-right: 100px;
-  font-size: 1rem;
+  margin:           0 0 60px 0;
+  padding-right:    100px;
+  font-size:        1rem;
 }
 .about.show .anim_3 {
-  transform: translate3d(0, 0, 0);
-  transition: 500ms ease-out 1000ms;
-  opacity: 1;
+  transform:        translate3d(0, 0, 0);
+  transition:       500ms ease-out 1000ms;
+  opacity:          1;
 }
 
 
 .btn {
-  color: #fff;
-  line-height: 2.2;
-  width: 250px;
-  padding: 1em 0;
-  display: block;
-  text-decoration: none;
-  cursor: pointer;
-  position: relative;
-  z-index: 2;
-  transition: all 0.3s !important;
-  overflow: hidden;
-  border: 1px solid transparent;
-  text-align: center;
+  color:            #fff;
+  line-height:      2.2;
+  width:            250px;
+  padding:          1em 0;
+  display:          block;
+  text-decoration:  none;
+  cursor:           pointer;
+  position:         relative;
+  z-index:          2;
+  transition:       all 0.3s !important;
+  overflow:         hidden;
+  border:           1px solid transparent;
+  text-align:       center;
   background-color: #0086cb;
 }
 a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
+  margin:           0;
+  padding:          0;
+  font-size:        100%;
+  vertical-align:   baseline;
 }
 .btn:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  display: inline-block;
-  border: 5px solid transparent;
+  content:          "";
+  width:            0px;
+  height:           0px;
+  display:          inline-block;
+  border:           5px solid transparent;
   border-left-color: #fff;
-  position: absolute;
-  transition: all 0.6s;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-100%);
+  position:         absolute;
+  transition:       all 0.6s;
+  right:            1em;
+  top:              50%;
+  transform:        translateY(-100%);
 }
 .btn:after {
-  content: "";
-  width: 120%;
-  height: 100%;
+  content:          "";
+  width:            120%;
+  height:           100%;
   background-color: #fff;
-  position: absolute;
-  z-index: -1;
-  transform: skew(20deg, 0deg) translate3d(0, 0, 0);
-  left: -130%;
-  top: 0;
-  transition: all 0.6s;
+  position:         absolute;
+  z-index:          -1;
+  transform:        skew(20deg, 0deg) translate3d(0, 0, 0);
+  left:             -130%;
+  top:              0;
+  transition:       all 0.6s;
 }
 .bg3 {
   background-color: lightskyblue;
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  height: 100%;
-  width: 100%;
+  position:         absolute;
+  top:              0px;
+  left:             50%;
+  height:           100%;
+  width:            800px;
   background-image: linear-gradient(transparent 99%, rgba(255, 255, 255, 0.4) 1%), linear-gradient(90deg, transparent 99%, rgba(255, 255, 255, 0.4) 1%);
-  background-size: 100px 100px;
+  background-size:  100px 100px;
   background-repeat: repeat;
 }
 .about_back.show {
-  opacity: 1;
+  opacity:          1;
 }
 .about_back {
-  width: 50%;
-  height: 100%;
+  width:            50%;
+  height:           100%;
 }
